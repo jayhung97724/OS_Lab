@@ -1,0 +1,18 @@
+def GuessNumber():
+  lo = 1
+  hi = 10
+  target = 11
+  guess = 12
+  while guess != target: 
+    guess = input("Please enter a number between " + str(lo) + " and " + str(hi) + ": ")
+    if guess > target:
+      hi = guess
+    elif guess < target:
+      lo = guess
+    else:
+      break
+  print("Bingo!!!")
+
+print("Welcome to the Number Guessing Game!")
+target = input("Please enter your target number: ")  
+GuessNumber()
