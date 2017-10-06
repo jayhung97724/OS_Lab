@@ -6,7 +6,7 @@
 int main(void) {
 
   FILE* cptr;
-  seteuid(0);
+  //seteuid(0);
   printf("My real user id      = %d\n", getuid());
   printf("My effective user id = %d\n", geteuid());
   cptr = fopen("datafile", "a");
