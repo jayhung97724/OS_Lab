@@ -1,0 +1,175 @@
+    1  sudo echo
+    2  cat a
+    3  name="John Doe"
+    4  export name
+    5  cat > display_name
+    6  cat display_name 
+    7  name="John Doe"
+    8  sh display_name
+    9  display_name
+   10  chmod display_name 
+   11  chmod u+x display_name 
+   12  ./display_name 
+   13  name="John Doe"
+   14  sh display_name
+   15  ./display_name 
+   16  cat > export_demo
+   17  cat > display_change_name
+   18  export_demo
+   19  chmod u+x export_demo 
+   20  chmod u+x display_change_name 
+   21  export_demo
+   22  ./export_demo 
+   23  ls -l
+   24  ./display_name
+   25  cat export_demo 
+   26  ./export_demo 
+   27  vim export_demo 
+   28  ./export_demo 
+   29  country=
+   30  echo "$country"
+   31  cat read_demo
+   32  cat > read_demo
+   33  chmod u+x read_demo 
+   34  ./read_demo 
+   35  vim read_demo 
+   36  ./read_demo 
+   37  vim read_demo 
+   38  ./read_demo 
+   39  vim read_demo 
+   40  ./read_demo 
+   41  vim read_demo 
+   42  ./read_demo 
+   43  cat > ex
+   44  chmod u+x ex
+   45  ./ex
+   46  vim ex
+   47  chmod u+x ex
+   48  ./ex
+   49  chmod u+x ex
+   50  vim ex
+   51  ./ex
+   52  vim ex
+   53  ./ex
+   54  vim ex
+   55  ./ex
+   56  vim ex
+   57  cat > cmdargs_demo
+   58  vim cmdargs_demo 
+   59  chmod u+x cmdargs_demo 
+   60  ./cmdargs_demo 
+   61  ./cmdargs_demo  a b c d e f g h i 
+   62  ./cmdargs_demo  a b c d e f g  
+   63  ./cmdargs_demo  One 2 Three 4 Five six 7 eight 9
+   64  vim shift_demo
+   65  chmod u+x shift_demo 
+   66  ./shift_demo 
+   67  ./shift_demo 1 2 3 4 5 6 7 8 9 10 11 12
+   68  sh shift_demo 1 2 3 4 5 6 7 8 9 10
+   69  set `date`
+   70  echo "$@"
+   71  echo "$2 $3, $6"
+   72  echo "$2 $3, $6 $#"
+   73  vim set_demo
+   74  chmod u+x set_demo 
+   75  sh se
+   76  sh set_demo
+   77  sh set_demo name
+   78  sh set_demo date
+   79  sh set_demo shift_demo
+   80  vim set_demo
+   81  sh set_demo shift_demo
+   82  sh set_demo 
+   83  a;lsdkfj;alsdkfj
+   84  \a;sdklfj;qklwe/r,mzxc
+   85  v;klqj/we,.fazxckvmnm;oi3;lkjasdfvnz.glh.a/klj/l12k3j4/laksdmfz,.xcvm';lkq3wejfkalsd.........................zxldfja;sfk;.;weklhfnzsjlddawe.bgrqwer;qy;hiowejflfjlj.;ifrcvn nj i4oejcn iiiiiiiw34uro23u84;jioi23ur;iHJHRSHERHQ2;HH;HQ2;HH;.h;/aoiwej;ajeri;wroweairo;awejklfjfc; n4ur;i4orhjfnhyft4;q3yth;dhq3;4uhyfn q;34uhycvn ,.;333cvn, .;3eftrhq3.;ty34rgt
+   86  vim if_demo1
+   87  chmod u+x if_demo1 
+   88  sh if_demo1 shift_demo
+   89  vim if_demo1
+   90  sh set_demo shift_demo
+   91  sh if_demo1 shift_demo
+   92  sh if_demo1 
+   93  sh if_demo1 shift_demo display_name
+   94  sh if_demo1
+   95  sh if_demo1 shift_demo
+   96  vim if_demo2
+   97  cp if_demo1 if_demo2
+   98  cp if_demo1 if_demo3
+   99  vim if_demo2
+  100  sho | head
+  101  who | head
+  102  who | head 1-
+  103  who | head -l
+  104  who | head -1
+  105  who | head -1 | shift 2
+  106  cat > exa
+  107  chmod u+x exa
+  108  sh exa
+  109  vim exa
+  110  sh exa
+  111  vim exa
+  112  sh exa
+  113  vim exa
+  114  sh exa
+  115  vim exa
+  116  sh exa
+  117  vim if_demo2
+  118  ls -l
+  119  chmod u+xif_demo2
+  120  chmod u+x if_demo2
+  121  sh if_demo2 set_demo
+  122  vim if_demo2
+  123  sh if_demo2 set_demo
+  124  sh if_demo1 set_demo
+  125  sh if_demo1 a
+  126  sh if_demo1 b
+  127  sh if_demo1 exa
+  128  vim if_demo2
+  129  sh if_demo1 exa
+  130  vim if_demo2
+  131  sh if_demo1 exa
+  132  sh if_demo1 set_demo
+  133  vim if_demo3
+  134  sh if_demo1 set_demo
+  135  vim if_demo3
+  136  sh if_demo1 set_demo
+  137  sh if_demo1 exa
+  138  ls -l
+  139  ls | wc -w
+  140  user_info
+  141  info
+  142  q
+  143  qw
+  144  w
+  145  e
+  146  w
+  147  top
+  148  cd OS_lab/
+  149  cd lab02/
+  150  gedit printid.c
+  151  gcc printid.c -o printid
+  152  ./printid 
+  153  gcc printid.c -o printid
+  154  gedit printid.c
+  155  gcc printid.c -o printid
+  156  ./printid 
+  157  gedit printid.c
+  158  gcc printid.c -o printid
+  159  ./printid 
+  160  sudo su
+  161  ./changefile 
+  162  chmod 4755 changefile
+  163  sudo chmod 4755 changefile
+  164  ./changefile 
+  165  more datafile 
+  166  git status
+  167  cd ../
+  168  git statis
+  169  git status
+  170  git add -A
+  171  git commit -m "20171006 lab02"
+  172  git push
+  173  CD lab02
+  174  cd lab02
+  175  history > history.txt
