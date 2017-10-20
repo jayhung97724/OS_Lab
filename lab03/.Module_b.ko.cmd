@@ -1,0 +1,1 @@
+cmd_/home/oslab/OS_lab/lab03/Module_b.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/oslab/OS_lab/lab03/Module_b.ko /home/oslab/OS_lab/lab03/Module_b.o /home/oslab/OS_lab/lab03/Module_b.mod.o
