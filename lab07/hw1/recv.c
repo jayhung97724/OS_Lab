@@ -14,7 +14,7 @@ int main()
     int msgid;
     struct oslab_msg_st msg_buffer;
     // set the key value
-    key_t key = 0x1234;
+    key_t key = 0x1235;
     // get the message queue ID
     msgid = msgget(key, IPC_CREAT | 0666);
     printf("Message Queue Identifier:%d\n", msgid);

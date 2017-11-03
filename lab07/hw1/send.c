@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     struct msqid_ds msq_id;
     struct oslab_msg_st msg_buffer;
     // set the key value
-    key_t key = 0x1234;
+    key_t key = 0x1235;
     // create a message queue
     msqid = msgget(key, IPC_CREAT | 0666);
     printf("Message Queue Identifier:%d\n", msqid);

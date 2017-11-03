@@ -1,5 +1,5 @@
 // gcc producer.c -lrt
-
+#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,7 +14,7 @@ int main()
     // name of shared memory object
     const char *name = "OS";
     //strings written to shared memory
-    const char *message_0 = "Hello";
+    const char *message_0 = "Hello ";
     const char *message_1 = "World!";
 
     // shared memory file descriptor
