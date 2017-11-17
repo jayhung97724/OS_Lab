@@ -1,0 +1,1 @@
+cmd_/home/bacon/shareData/NCHU-OS-LAB/lab5/exercise/module_C.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/bacon/shareData/NCHU-OS-LAB/lab5/exercise/module_C.ko /home/bacon/shareData/NCHU-OS-LAB/lab5/exercise/module_C.o /home/bacon/shareData/NCHU-OS-LAB/lab5/exercise/module_C.mod.o

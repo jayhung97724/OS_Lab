@@ -1,0 +1,1 @@
+cmd_/home/bacon/shareData/NCHU-OS-LAB/lab5/export/module_B.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/bacon/shareData/NCHU-OS-LAB/lab5/export/module_B.ko /home/bacon/shareData/NCHU-OS-LAB/lab5/export/module_B.o /home/bacon/shareData/NCHU-OS-LAB/lab5/export/module_B.mod.o
