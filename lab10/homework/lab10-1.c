@@ -1,3 +1,4 @@
+// gcc -o 1 lab10-1.c -pthread
 #include <semaphore.h>
 #include <pthread.h>
 #include <stdio.h>

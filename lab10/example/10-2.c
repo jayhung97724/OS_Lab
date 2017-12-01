@@ -82,5 +82,3 @@ int main()
         }
         pthread_exit(NULL);
 }
-                                                                                                                                                             13,1         頂端
-  

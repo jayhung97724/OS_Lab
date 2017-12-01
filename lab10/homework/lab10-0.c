@@ -1,13 +1,14 @@
+// gcc -o 1 lab10-1.c -pthread
 #include <semaphore.h>
 #include <pthread.h>
 #include <stdio.h>
 int count=0;
 void inc(void);
 void dec(void);
-sem_t sema;
+// sem_t sema;
 int main(void){
         int i=0;
-        sem_init(&sema,0,1);
+        // sem_init(&sema,0,1);
         pthread_t id[4];
         pthread_create(&id[0],NULL,(void*)dec,NULL);
         pthread_create(&id[1],NULL,(void*)inc,NULL);
@@ -22,19 +23,19 @@ int main(void){
 
 void inc(void){
         int i=0;
-        sem_wait(&sema);
+        // sem_wait(&sema);
         for(i=0;i<25000000;i++){
                 count++;
         }
-        sem_post(&sema);
+        // sem_post(&sema);
         pthread_exit(NULL);
 }
 void dec(void){
         int i=0;
-        sem_wait(&sema);
+        // sem_wait(&sema);
         for(i=0;i<25000000;i++){
                 count--;
         }
-        sem_post(&sema);
+        // sem_post(&sema);
         pthread_exit(NULL);
 }
